@@ -1,0 +1,109 @@
+$textColor: #000000;
+$red: #F21F25;
+$bgColor: #FCF5F1;
+$footerBg: #170000;
+
+$navTextColor: #ffffff;
+
+
+html, body {
+  height: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: AvenirNext, sans-serif !important;
+}
+
+
+h1 {
+  font-size: 60px !important;
+  color: $textColor !important;
+  font-family: 'Josefin Sans', sans-serif !important;
+}
+
+@media only screen and (max-width: 940px) {
+  h1 {
+    font-size: 52px !important;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  h1 {
+    font-size: 42px !important;
+  }
+}
+
+
+h2 {
+  font-size: 80px !important;
+  color: $textColor !important;
+  font-family: 'Josefin Sans', sans-serif !important;
+}
+
+@media only screen and (max-width: 940px) {
+  h2 {
+    font-size: 62px !important;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  h2 {
+    font-size: 42px !important;
+  }
+}
+
+h3 {
+  font-size: 50px !important;
+  color: #0A0A0A !important;
+  font-family: 'Avenir-Next', sans-serif !important;
+  margin: 48px;
+}
+
+@media only screen and (max-width: 940px) {
+  h3 {
+    font-size: 42px !important;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  h3 {
+    font-size: 32px !important;
+  }
+}
+
+
+h4 {
+  font-size: 42px !important;
+  color: #0A0A0A !important;
+  font-family: 'Avenir-Next', sans-serif !important;
+}
+
+@media only screen and (max-width: 940px) {
+  h4 {
+    font-size: 36px !important;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  h4 {
+    font-size: 32px !important;
+  }
+}
+
+p {
+  font-size: 26px;
+  font-family: PtSerifRegular, sans-serif !important;
+}
+
+@media only screen and (max-width: 610px) {
+  p {
+    font-size: 22px !important;
+  }
+}
+
+
+.box__dragndrop,
+.box__uploading,
+.box__success,
+.box__error {
+  display: none;
+}
